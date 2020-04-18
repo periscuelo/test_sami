@@ -3,6 +3,10 @@
 ## Fake Auth
 > This is a test API. Therefore, the user for get a valid token is adm and de password is adm
 
+## Requiriments
+* NodeJs  
+* MongoDB
+
 ## Technologies
 * Restify
 * Mongoose
