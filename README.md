@@ -1,7 +1,12 @@
-# sami
+# NodeJs API - Sami
 
 ## Fake Auth
 > This is a test API. Therefore, the user for get a valid token is adm and de password is adm
+
+## Technologies
+* Restify
+* Mongoose
+* JWT
 
 ## URL'S
 GET https://localhost  
