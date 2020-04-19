@@ -17,8 +17,8 @@ Windows
 Linux or Mac
 ```
 "scripts": {
-    "start": "export NODE_ENV=dev&&export NODE_PATH=src&& nodemon server.js",
-    "test": "export NODE_ENV=test&&export PORT=80&&export BASE_URL=http://localhost&&export NODE_PATH=src&&nyc mocha test/* --exit"
+    "start": "export NODE_ENV=dev && export NODE_PATH=src && nodemon server.js",
+    "test": "export NODE_ENV=test && export PORT=80 && export BASE_URL=http://localhost && export NODE_PATH=src && nyc mocha test/* --exit"
 }
 ```
 
