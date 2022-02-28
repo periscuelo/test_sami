@@ -1,8 +1,8 @@
 const bluebird = require('bluebird');
-const data = require('schemas/beneficiary.schema');
+const dataBase = require('schemas/beneficiary.schema');
 const mongoose = require('config/mongo');
 
-const model = mongoose.model(data.Collection, data.Schema);
+const model = mongoose.model(dataBase.Collection, dataBase.Schema);
 
 const beneficiaries = {
   count(query, callback) {
